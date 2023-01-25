@@ -1,5 +1,7 @@
 from RubikCube import RubikCube
 
+# Simulation
+
 if __name__ == '__main__':
     size = 3
     correct_cube = RubikCube(size)
