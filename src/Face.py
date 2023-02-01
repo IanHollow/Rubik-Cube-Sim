@@ -7,7 +7,7 @@ class Face:
             raise EnvironmentError("Size must be greater than 1")
         self.face = np.full(shape=(size, size), fill_value=color)
         # testing
-        #self.face = np.array([x for x in range(size**2)]).reshape(size, size)
+        # self.face = np.array([x for x in range(size**2)]).reshape(size, size)
 
     def get_face(self):
         return self.face
